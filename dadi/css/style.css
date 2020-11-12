@@ -35,11 +35,29 @@ body {
   padding: 100px 0;
   border-radius: 10px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  animation: rotate 2s linear;
+}
+
+@keyframes rotate {
+
+  100% {
+    transform: rotateY(360deg);
+  }
+
+}
+
+.dice span {
+  opacity: 0;
+  animation: ok 1.5s linear;
+  animation-fill-mode: forwards;
 }
 
 #client, #npc {
   background-color: white;
   font-size: 80px;
+  opacity: 0;
+  animation: ok 2s linear;
+  animation-fill-mode: forwards;
 }
 
 #message {
@@ -49,4 +67,17 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   padding: 30px;
+  opacity: 0;
+  animation: ok 3s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes ok {
+  95% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
