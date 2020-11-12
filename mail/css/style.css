@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://blog.uniecampus.it/wp-content/uploads/2019/04/matrix-copertina.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+
+#message {
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Helvetica' , sans-serif;
+  font-weight: bold;
+}

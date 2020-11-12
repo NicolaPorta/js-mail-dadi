@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://www.used.forsale/sh-img/OrCj7oi9PvQfcTZTlkVGGUjZCq5PH68jaOOaqBNxAtCDD8Bdif2-0inL1f0mC3vQvQ%3Dh900_roulette%2Bcasino.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.dice {
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  font-family: 'Helvetica' , sans-serif;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#client, #npc {
+  background-color: white;
+  font-size: 80px;
+}
+
+#message {
+  text-shadow: 0 0 0 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 80px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 30px;
+}
